@@ -1,0 +1,26 @@
+DEPEND A B C D
+DEPEND B E
+DEPEND D E F
+DEPEND E G
+DEPEND F H
+DEPEND H I
+INSTALL G
+   Installing G
+INSTALL A
+   Installing E
+   Installing B
+   Installing C
+   Installing I
+   Installing H
+   Installing F
+   Installing D
+   Installing A
+REMOVE A
+   Removing A
+   Removing D
+   Removing F
+   Removing H
+   Removing I
+   Removing C
+   Removing B
+   Removing E

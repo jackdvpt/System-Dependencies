@@ -1,0 +1,13 @@
+DEPEND A B C D
+DEPEND B E
+DEPEND D E F
+DEPEND E G
+DEPEND F H
+DEPEND H I
+DEPEND I F
+   Found cycle in dependencies
+DEPEND G A
+   Found cycle in dependencies
+INSTALL G
+INSTALL A
+REMOVE A
